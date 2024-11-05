@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<navigation-bar title="哈斯特导航系统" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view style="width: 100%;margin: 100rpx 0;text-align: center;">
+    登录以继续
+    <!-- pages/index/index.wxml -->
+    <button class="green-button" bindtap="toLogin">用户登录</button>
+  </view>
+</scroll-view>
